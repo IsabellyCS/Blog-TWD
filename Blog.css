@@ -12,9 +12,9 @@ body {
     background-color: white;
 }
     
-img {
-    width: 55px;
-    height: 35px;
+.logo img {
+    width: 111px;
+    height: 71px;
 }
 .menu {
         margin: 0;
