@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+p {
+    text-align: left;
+    font-size: 15px;
+}
+body {
+    background-color: white;
+}
+    
+img {
+    width: 55px;
+    height: 35px;
+}
+.menu {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+}
+.barra {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 25px;
+    padding: 15px;
+    justify-content: space-between;
+}
+header {
+    background-image: url(imgs/Background-menu.png);
+    background-size: cover;
+    background-position: center;
+}
+.caixona {
+    border: 1px solid #8CC0E7;
+    display: flex;
+    justify-content: space-between;
+}
+.caixa {
+    display: flex;
+    flex-direction: column;
+}
+.esquerda {
+    width: 100px;
+}
+.direita {
+    width: 100px;
+}
+h1 {
+    color: #00057E;
+    font-size: 40px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+nav h5 {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 25px;
+}
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+    margin: 15px;
+    text-align: center;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 25px;
+}
+h7 {
+    font-size: 25px;
+}
+h6 {
+    font-size: 20px;
+}
