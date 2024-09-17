@@ -4,6 +4,10 @@
     padding: 0;
     font-family: "Fraunces", 'Times New Roman', Times, serif;
 }
+.sublinhado {
+    text-decoration: underline;
+    text-underline-offset: 8px; /
+}
 /* <uniquifier>: Use a unique and descriptive class name
 / <weight>: Use a value from 100 to 900
 
@@ -207,6 +211,7 @@ p {
     margin-bottom: 25px;
     width: 1000px;
 }
+
 .section-quatro {
     display: flex;
     flex-direction: column;
@@ -247,12 +252,17 @@ p {
     flex-wrap: wrap; /* Permite quebra de linha se necessário */
 }
 
+
 .poster {
     display: flex;
     flex-direction: column; /* Organiza conteúdo interno em coluna */
     align-items: center; /* Centraliza conteúdo dentro do pôster */
     gap: 10px; /* Espaçamento entre imagem e textos */
     text-align: center; /* Centraliza texto dentro das divs */
+    margin: 25px;
+}
+.poster div{
+    align-items: left;
 }
 
 .escritas {
