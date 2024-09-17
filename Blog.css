@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     border: 0;
@@ -282,4 +283,290 @@ footer img{
     justify-content: center;
     align-items: center;
     height: 150px;
+=======
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Fraunces", 'Times New Roman', Times, serif;
+}
+.sublinhado {
+    text-decoration: underline;
+    text-underline-offset: 8px; /
+}
+/* <uniquifier>: Use a unique and descriptive class name
+/ <weight>: Use a value from 100 to 900
+
+.fraunces-<uniquifier> {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+} */
+
+body {
+    background-color: white;
+}
+    
+.logo img {
+    width: 100px;
+    height: 60px;
+    margin-right: 700px;
+}
+.menu {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.barra {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px;
+    padding: 15px;
+    justify-content: space-between;
+    gap: 50px;
+}
+header {
+    background-image: url(imgs/MenuFundo\ -\ TWD.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: 350px;
+    font-variation-settings: "wght" 350;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+nav h5 {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 25px;
+}
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+    margin: 20px 0 35px;
+    text-align: center;
+}
+h1 {
+    color: #00057E;
+    font-size: 40px;
+    margin: 25px;
+}
+h2 {
+    color: rgb(70, 70, 70);
+    font-weight: 350px;
+    font-variation-settings: "wght" 350;
+    font-size: 18px;
+    margin: 15px 0 20px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 25px;
+}
+h5 {
+    font-size: 22px;
+    font-weight: 400px;
+    font-variation-settings: "wght" 400;
+}
+h6 {
+    font-size: 20px;
+}
+
+.barrinha3d {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section-um {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.caixona {
+    border: 1px solid #1982CE;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 900px;
+    box-sizing: border-box; /* Inclui a borda e o padding no cálculo da largura */
+    height: 350px;
+
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #1982CE;
+    gap: 20px; 
+    padding: 35px 40px 30px;
+    text-align: left;
+    gap: 30px;
+
+}
+.esquerda {
+    flex: 2;
+}
+.direita {
+    flex: 4;
+}
+.imgnota{
+    height: 70px;
+    width: 70px;
+    margin: 0 55px 0 0;
+}
+.imgcoracao {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+}
+
+.nota {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-dois {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.ImagensGrandes {
+    height: 455px;
+    width: 1000px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    width: 1000px;
+    margin: 25px;
+}
+.imagenspequenas {
+    width: 810px;
+    height: 375px;
+}
+.personagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-tres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.imgmini {
+    height: 455px;
+    width: 880px;
+}
+.azul {
+    border: 1px solid #1982CE;
+    margin-bottom: 25px;
+    width: 1000px;
+}
+
+.section-quatro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.link {
+    color: #1982CE;
+}
+.section-cinco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.escritas p {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+.escritas h6 {
+    font-size: 18px;
+    color: #1982CE;
+    border: 1px solid #1982CE;
+    border-radius: 25px;
+    padding: 5px 8px;
+}
+.Posterzao {
+    display: flex;
+    flex-direction: row; /* Alinha os pôsteres em linha */
+    justify-content: center; /* Centraliza os pôsteres na tela */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaçamento entre os pôsteres */
+    flex-wrap: wrap; /* Permite quebra de linha se necessário */
+}
+
+
+.poster {
+    display: flex;
+    flex-direction: column; /* Organiza conteúdo interno em coluna */
+    align-items: center; /* Centraliza conteúdo dentro do pôster */
+    gap: 10px; /* Espaçamento entre imagem e textos */
+    text-align: center; /* Centraliza texto dentro das divs */
+    margin: 25px;
+}
+.poster div{
+    align-items: left;
+}
+
+.escritas {
+    display: flex;
+    flex-direction: row; /* Mantém o layout de texto e título horizontal */
+    justify-content: center; /* Centraliza horizontalmente dentro do pôster */
+    align-items: center; /* Alinha itens verticalmente */
+    gap: 10px; /* Espaçamento entre o título e o review */
+}
+.section-cinco img {
+    height: 405px;
+    width: 270px;
+}
+footer img{
+    width: 100%;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+>>>>>>> b8cb6b9211ef0348dc1fb7ae2b18813af3295fdf
 }
